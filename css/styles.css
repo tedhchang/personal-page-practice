@@ -1,0 +1,120 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+h1{
+  margin-top: 17%;
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+#title {
+  color: white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#portfolio-section{
+  background-color: #eeeeee;
+}
+
+.colored-background {
+  background-color: #1E90FF;
+}
+
+
+.container-fluid{
+  padding: 1% 17%;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.title-bio{
+  margin-top: 5%;
+  margin-bottom: 15%;
+  font-size: 1.4rem;
+}
+
+/* Animation */
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+
+.navbar-brand{
+  color: white;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+#skillset-section{
+  padding: 50px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.skill-item{
+  font-size: 1.5rem;
+  padding-bottom: 5%;
+}
+
+.portfolio-title{
+  padding-top: 3%
+}
+
+.skill-title{
+  margin-top: 5%;
+  padding-bottom: 4%;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#portfolio-section{
+  padding: 100px;
+}
+
+.portfolio-title {
+  padding-top: 5%;
+  padding-bottom: 4%;
+  font-size: 3rem;
+  font-weight: bold;
+}
